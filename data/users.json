@@ -1,0 +1,14 @@
+{
+    "u1": {
+        "name": "Syed",
+        "voice": "voices\\u1.wav"
+    },
+    "u2": {
+        "name": "Friend",
+        "voice": "voices\\u2.wav"
+    },
+    "12": {
+        "name": "saad",
+        "voice": "voices\\12.wav"
+    }
+}

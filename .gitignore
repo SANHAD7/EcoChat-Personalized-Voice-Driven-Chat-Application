@@ -1,0 +1,22 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# React
+frontend/node_modules/
+
+# Generated files
+temp_audio/
+generated/
+temp_uploads/
+
+# Database temp files
+*.db-journal
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db

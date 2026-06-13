@@ -1,0 +1,20 @@
+
+body { margin:0; font-family:sans-serif; }
+
+.app { display:flex; height:100vh; background:#111b21; color:white; }
+
+.sidebar { width:260px; background:#202c33; padding:10px; }
+
+.contact { padding:8px; cursor:pointer; }
+
+.chat { flex:1; display:flex; flex-direction:column; }
+
+.messages { flex:1; overflow:auto; padding:10px; }
+
+.me { text-align:right; background:#005c4b; margin:5px; padding:6px; border-radius:6px; }
+
+.them { text-align:left; background:#2a3942; margin:5px; padding:6px; border-radius:6px; }
+
+.input { display:flex; padding:10px; background:#202c33; }
+
+.status { color:yellow; }
