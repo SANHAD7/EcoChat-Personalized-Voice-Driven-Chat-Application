@@ -3,20 +3,35 @@ venv/
 __pycache__/
 *.pyc
 
-# React
+# React/Vite
+node_modules/
 frontend/node_modules/
+dist/
+dist-ssr/
+*.local
 
-# Generated files
+# Generated Audio
 temp_audio/
 generated/
 temp_uploads/
 
-# Database temp files
-*.db-journal
+# User Voices
+voices/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS Files
+.DS_Store
+Thumbs.db
 
 # VS Code
 .vscode/
+.idea/
 
-# OS files
-.DS_Store
-Thumbs.db
+# Database Temp Files
+*.db-journal
