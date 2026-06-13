@@ -141,6 +141,8 @@ npm run dev
 ```
 
 ---
+--- For converting voice into clear .wav form use command:
+    ffmpeg -i voice.wav -ac 1 -ar 22050 -sample_fmt s16 new_voice.wav
 
  📸 Project Screenshots
 
